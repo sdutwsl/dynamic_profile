@@ -2,7 +2,8 @@
 <nav>
       <router-link to="/P1">简历</router-link>|
       <router-link to="/P2">项目</router-link>|
-      <router-link to="/P3">动态</router-link>
+      <router-link to="/P3">动态</router-link>|
+      <router-link to="/P4">定位</router-link>
 </nav>
 <router-view />
 </template>

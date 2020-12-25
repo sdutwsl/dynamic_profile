@@ -3,7 +3,8 @@
       <router-link to="/P1">简历</router-link>|
       <router-link to="/P2">项目</router-link>|
       <router-link to="/P3">动态</router-link>|
-      <router-link to="/P4">定位</router-link>
+      <router-link to="/P4">定位</router-link>|
+      <router-link to="/P5">表格操作</router-link>
 </nav>
 <router-view />
 </template>
@@ -21,7 +22,6 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: #333;
-  max-width: 20cm;
   padding: 0.25cm;
   margin: auto;
 }

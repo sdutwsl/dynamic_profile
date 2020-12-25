@@ -3,6 +3,7 @@ import P1 from "./p1.vue";
 import P2 from "./p2.vue";
 import P3 from "./p3.vue";
 import P4 from "./p4.vue";
+import P5 from "./p5.vue";
 
 const routes = [
     {
@@ -28,6 +29,11 @@ const routes = [
     path: "/P4",
     name: "P4",
     component: P4,
+  },
+  {
+    path: "/P5",
+    name: "P5",
+    component: P5,
   },
 ];
 
